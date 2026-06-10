@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JD Jewellers specializes in luxury custom VVS diamond pendants, hand-forged 18k gold Miami Cuban chains, custom-fit gold grillz, and iced-out watches.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline';">
+  
+  <title>JD Jewellers | Custom Iced Out & Fine Jewelry</title>
+  
+  <!-- Premium Fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header id="main-header" class="glass-header">
+    <div id="header-diamonds" class="falling-diamonds-container"></div>
+    <div class="header-container">
+      <div class="logo-area">
+        <a href="#" id="brand-logo" class="logo-link">
+          <img src="./assets/images/logo.png" alt="JD" class="logo-img">
+          <span>JD JEWELLERS</span>
+        </a>
+      </div>
+      
+      <nav id="nav-menu" class="nav-links">
+        <a href="#catalog-section" class="nav-item">Shop</a>
+        <a href="#collections-section" class="nav-item">Collections</a>
+        <a href="#about-section" class="nav-item">Our Craft</a>
+        <a href="#reviews-section" class="nav-item">Reviews</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Search bar -->
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search jewelry..." aria-label="Search jewelry">
+          <button id="search-btn" class="icon-btn" aria-label="Submit search">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+          </button>
+        </div>
+
+        <!-- Wishlist Toggle -->
+        <button id="wishlist-toggle-btn" class="icon-btn" aria-label="Open Wishlist">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <span id="wishlist-badge" class="badge">0</span>
+        </button>
+
+        <!-- Cart Toggle -->
+        <button id="cart-toggle-btn" class="icon-btn" aria-label="Open Shopping Cart">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+          <span id="cart-badge" class="badge">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section id="hero-section" class="hero-banner">
+      <div id="hero-diamonds" class="falling-diamonds-container hero-diamonds-container"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Uncompromising Custom Luxury</h1>
+        <p class="hero-subtitle">Premium custom nameplates, iced-out VVS pendants, and solid 18k gold chains.</p>
+        <a href="#catalog-section" class="btn btn-primary btn-large">Explore Collection</a>
+      </div>
+      <div class="scroll-down">
+        <a href="#catalog-section" aria-label="Scroll to catalog">
+          <svg class="chevron-down" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Brand Highlights -->
+    <section id="highlights-section" class="highlights-container">
+      <div class="highlight-item">
+        <svg class="highlight-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        <h3>Hand-Set VVS Diamonds</h3>
+        <p>Every VVS diamond and moissanite stone is meticulously hand-set under a microscope.</p>
+      </div>
+      <div class="highlight-item">
+        <svg class="highlight-icon" viewBox="0 0 24 24"><path d="M12 22c4.97 0 9-4.03 9-9 0-4.97-4.03-9-9-9s-9 4.03-9 9c0 4.97 4.03 9 9 9zM12 4c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.14-7-7 3.14-7 7-7z"/></svg>
+        <h3>Master Craftsmanship</h3>
+        <p>Bespoke 3D CAD modeling and precision casting for a flawless custom fit.</p>
+      </div>
+      <div class="highlight-item">
+        <svg class="highlight-icon" viewBox="0 0 24 24"><path d="M20 8H4V6h16v2zm-2-6H6v2h12V2zM4 10v12h16V10H4zm14 10H6v-8h12v8z"/></svg>
+        <h3>Secure Insured Shipping</h3>
+        <p>All custom order packages are shipped via fully insured, signature-required express delivery.</p>
+      </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections-section" class="collections-container">
+      <h2 class="section-title">Curated Collections</h2>
+      <div class="collections-grid">
+        <div class="collection-card" data-category="pendants">
+          <div class="collection-card-bg card-pendants"></div>
+          <div class="collection-card-content">
+            <h3>Pendants</h3>
+            <span class="explore-link">View Collection</span>
+          </div>
+        </div>
+        <div class="collection-card" data-category="chains">
+          <div class="collection-card-bg card-chains"></div>
+          <div class="collection-card-content">
+            <h3>Miami Cuban Chains</h3>
+            <span class="explore-link">View Collection</span>
+          </div>
+        </div>
+        <div class="collection-card" data-category="grillz">
+          <div class="collection-card-bg card-grillz"></div>
+          <div class="collection-card-content">
+            <h3>Custom Grillz</h3>
+            <span class="explore-link">View Collection</span>
+          </div>
+        </div>
+        <div class="collection-card" data-category="watches">
+          <div class="collection-card-bg card-watches"></div>
+          <div class="collection-card-content">
+            <h3>Iced Out Watches</h3>
+            <span class="explore-link">View Collection</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog-section" class="catalog-container">
+      <h2 class="section-title">The Catalog</h2>
+      
+      <div class="catalog-layout">
+        <!-- Sidebar Filters -->
+        <aside id="catalog-sidebar" class="sidebar-filters">
+          <div class="filter-header">
+            <h3>Filters</h3>
+            <button id="clear-filters-btn" class="text-btn">Reset All</button>
+          </div>
+          
+          <!-- Category Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Category</h4>
+            <div class="checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="category" value="pendants" class="filter-checkbox">
+                Pendants
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="category" value="chains" class="filter-checkbox">
+                Chains
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="category" value="grillz" class="filter-checkbox">
+                Grillz
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="category" value="watches" class="filter-checkbox">
+                Watches
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="category" value="bracelets" class="filter-checkbox">
+                Bracelets
+              </label>
+            </div>
+          </div>
+
+          <!-- Material Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Material</h4>
+            <div class="checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="material" value="18k Gold & VVS Diamonds" class="filter-checkbox">
+                18k Gold & VVS
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="material" value="18k Solid Yellow Gold" class="filter-checkbox">
+                18k Solid Gold
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="material" value="18k Gold (Set of 6)" class="filter-checkbox">
+                18k Grillz Gold
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="material" value="Moissanite & Stainless Steel" class="filter-checkbox">
+                Moissanite & Steel
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="material" value="14k White Gold & Diamonds" class="filter-checkbox">
+                14k White Gold
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="material" value="14k Yellow Gold & VVS Diamonds" class="filter-checkbox">
+                14k Yellow Gold
+              </label>
+            </div>
+          </div>
+
+          <!-- Price Range Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Max Price</h4>
+            <div class="price-slider-container">
+              <input type="range" id="price-range" min="1000" max="10000" step="250" value="10000" class="range-slider">
+              <div class="price-slider-labels">
+                <span>$1000</span>
+                <span id="price-range-value" class="highlight-text">$10000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sort Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Sort By</h4>
+            <select id="sort-select" class="dropdown-select" aria-label="Sort products">
+              <option value="featured">Featured</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="rating">Top Rated</option>
+            </select>
+          </div>
+        </aside>
+
+        <!-- Product Grid & Search Summary -->
+        <div class="catalog-content">
+          <div id="search-status-bar" class="search-status hidden">
+            <span id="search-status-text">Showing results for "rings"</span>
+            <button id="clear-search-btn" class="close-small-btn">&times;</button>
+          </div>
+          
+          <div id="product-grid" class="product-grid">
+            <!-- Dynamic Product Cards will be inserted here -->
+          </div>
+          <div id="empty-catalog-view" class="empty-state hidden">
+            <p>No jewelry matches your filters.</p>
+            <button id="reset-filters-shortcut" class="btn btn-secondary">Reset Filters</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="about-container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="./assets/images/logo.png" alt="JD JEWELLERS Logo Large" class="about-logo-large">
+        </div>
+        <div class="about-text">
+          <h2 class="about-title">The Craft of JD Jewellers</h2>
+          <p>JD Jewellers is a premier custom jewelry boutique specializing in high-grade VVS diamonds, hand-forged 18k yellow gold chains, and custom-molded grillz. Every piece starts with a 3D digital sculpt, which is cast in precious metals and hand-set stone-by-stone by our master gemologists. We don't just sell jewelry—we craft permanent statements of luxury and identity.</p>
+          <p>Whether you are designing a one-of-a-kind nameplate, choosing a heavy Miami Cuban link, or molding a custom set of gold grillz, our commitment is to provide unmatched shine and absolute quality. Welcome to the family.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews Carousel -->
+    <section id="reviews-section" class="reviews-container">
+      <h2 class="section-title">JD Vibe Check</h2>
+      <div class="reviews-wrapper">
+        <div class="review-quote-card">
+          <div class="stars">★★★★★</div>
+          <p class="quote">"My custom VVS nameplate is absolutely blinding. The 3D script lettering catches the light perfectly under any angle. This is next level!"</p>
+          <span class="reviewer-name">- Eleanor G.</span>
+        </div>
+        <div class="review-quote-card">
+          <div class="stars">★★★★★</div>
+          <p class="quote">"The 18k gold Cuban chain has a beautiful, solid weight to it and the mirror polish is flawless. Custom box lock is super secure."</p>
+          <span class="reviewer-name">- Caroline W.</span>
+        </div>
+        <div class="review-quote-card">
+          <div class="stars">★★★★★</div>
+          <p class="quote">"Excellent fit on the custom gold grillz! The dental impression kit was easy to use, and they sit perfectly snug. Incredible shine."</p>
+          <span class="reviewer-name">- Julian R.</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-grid">
+      <div class="footer-col brand-col">
+        <h3>JD JEWELLERS</h3>
+        <p>Premium custom VVS diamond pendants, gold grillz, heavy Cuban chains, and iced out watches.</p>
+        <div class="footer-contact-info">
+          <p class="contact-item">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <a href="tel:+447494554171" class="footer-link">+44 7494 554171</a>
+          </p>
+          <p class="contact-item">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.645-1.44-1.44 0-.795.645-1.44 1.44-1.44.795 0 1.44.645 1.44 1.44z"/></svg>
+            <a href="https://www.instagram.com/jd.jewellers_/" target="_blank" rel="noopener noreferrer" class="footer-link">@jd.jewellers_</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#catalog-section">Shop Collection</a></li>
+          <li><a href="#about-section">Our Craft</a></li>
+          <li><a href="#reviews-section">JD Vibe Check</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Sizing Kits</a></li>
+          <li><a href="#">Care Instructions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col newsletter-col">
+        <h4>Newsletter</h4>
+        <p>Subscribe to receive previews of new collections and brand updates.</p>
+        <form id="newsletter-form" class="newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" id="newsletter-email" placeholder="Your email address" aria-label="Your email address" required>
+          <button type="submit" id="newsletter-btn" class="btn btn-secondary">Join</button>
+        </form>
+        <div id="newsletter-success" class="newsletter-success hidden">Thank you for subscribing!</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 JD Jewellers. All rights reserved. Created in compliance with secure coding frameworks.</p>
+    </div>
+  </footer>
+
+  <!-- Drawer Panels (Overlays) -->
+  
+  <!-- Overlay Backdrop (shared) -->
+  <div id="overlay-backdrop" class="overlay-backdrop hidden"></div>
+
+  <!-- Wishlist Drawer (Slides in from Left) -->
+  <aside id="wishlist-drawer" class="drawer-panel drawer-left hidden">
+    <div class="drawer-header">
+      <h2>Your Wishlist</h2>
+      <button id="close-wishlist-btn" class="close-btn" aria-label="Close Wishlist">&times;</button>
+    </div>
+    <div id="wishlist-items-container" class="drawer-content">
+      <!-- Dynamic Wishlist Items -->
+    </div>
+    <div class="drawer-footer">
+      <button id="add-wishlist-all-btn" class="btn btn-primary btn-full">Add All to Cart</button>
+    </div>
+  </aside>
+
+  <!-- Cart Drawer (Slides in from Right) -->
+  <aside id="cart-drawer" class="drawer-panel drawer-right hidden">
+    <div class="drawer-header">
+      <h2>Your Cart</h2>
+      <button id="close-cart-btn" class="close-btn" aria-label="Close Cart">&times;</button>
+    </div>
+    
+    <div id="cart-items-container" class="drawer-content">
+      <!-- Dynamic Cart Items -->
+    </div>
+    
+    <div class="drawer-footer">
+      <!-- Promo Code Section -->
+      <div class="promo-section">
+        <input type="text" id="promo-input" placeholder="Promo code (WELCOME10)" aria-label="Promo code">
+        <button id="apply-promo-btn" class="btn btn-secondary">Apply</button>
+      </div>
+      <div id="promo-msg" class="promo-feedback hidden">Code applied!</div>
+      
+      <!-- Subtotals -->
+      <div class="cart-summary-line">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">$0.00</span>
+      </div>
+      <div id="cart-discount-line" class="cart-summary-line hidden text-success">
+        <span>Discount</span>
+        <span id="cart-discount">-$0.00</span>
+      </div>
+      <div class="cart-summary-line">
+        <span>Shipping</span>
+        <span id="cart-shipping">Complimentary</span>
+      </div>
+      <div class="cart-summary-line total-line">
+        <span>Total</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      
+      <button id="checkout-btn" class="btn btn-primary btn-full">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <!-- Product Details Modal (Popup in Center) -->
+  <div id="product-modal" class="modal-wrapper hidden">
+    <div class="modal-content">
+      <button id="close-modal-btn" class="close-modal-btn" aria-label="Close details modal">&times;</button>
+      <div class="modal-grid">
+        <!-- Gallery -->
+        <div class="modal-gallery">
+          <div class="main-image-wrapper">
+            <img id="modal-main-img" src="" alt="Jewelry detailed view">
+          </div>
+          <div id="modal-thumbnails" class="thumbnail-row">
+            <!-- Dynamic thumbnails -->
+          </div>
+        </div>
+        <!-- Product Details Panel -->
+        <div class="modal-info">
+          <h2 id="modal-title">Product Title</h2>
+          <div class="modal-rating-row">
+            <span id="modal-stars" class="stars">★★★★★</span>
+            <span id="modal-reviews-count" class="reviews-count">(0 reviews)</span>
+          </div>
+          <div id="modal-price" class="modal-price">$0.00</div>
+          <p id="modal-description" class="modal-description">Detailed description goes here.</p>
+          
+          <!-- Accordion Specs & Care -->
+          <div class="accordion-group">
+            <details class="accordion-item" open>
+              <summary>Specifications</summary>
+              <div class="accordion-content">
+                <ul id="modal-specs-list">
+                  <!-- Dynamic specs -->
+                </ul>
+              </div>
+            </details>
+            <details class="accordion-item">
+              <summary>Care Instructions</summary>
+              <div class="accordion-content">
+                <p id="modal-care-text">Care instructions text...</p>
+              </div>
+            </details>
+          </div>
+
+          <!-- Add to Cart & Buy -->
+          <div class="modal-actions-row">
+            <div class="quantity-selector">
+              <button id="qty-dec-btn" class="qty-btn" aria-label="Decrease quantity">-</button>
+              <span id="modal-qty-value" class="qty-val">1</span>
+              <button id="qty-inc-btn" class="qty-btn" aria-label="Increase quantity">+</button>
+            </div>
+            <button id="modal-add-btn" class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Drawer/Overlay (Full Screen or Slide-in Wizard) -->
+  <div id="checkout-modal" class="checkout-overlay hidden">
+    <div class="checkout-container">
+      <header class="checkout-header">
+        <h2>JD Jewellers Secure Checkout</h2>
+        <button id="close-checkout-btn" class="close-checkout-btn" aria-label="Close Checkout">&times;</button>
+      </header>
+
+      <div class="checkout-layout">
+        <!-- Form wizard steps -->
+        <div class="checkout-main">
+          <!-- Step indicator -->
+          <nav class="step-indicator">
+            <div class="step active" id="step-lbl-1">1. Shipping</div>
+            <div class="step" id="step-lbl-2">2. Payment</div>
+            <div class="step" id="step-lbl-3">3. Confirmation</div>
+          </nav>
+
+          <!-- Step 1: Shipping Form -->
+          <div id="checkout-step-1" class="checkout-step">
+            <form id="shipping-form" onsubmit="event.preventDefault();">
+              <fieldset class="form-fieldset">
+                <legend class="sr-only">Shipping Information</legend>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="shipping-name">Full Name</label>
+                    <input type="text" id="shipping-name" required placeholder="Jane Doe" minlength="3">
+                  </div>
+                  <div class="form-field">
+                    <label for="shipping-email">Email Address</label>
+                    <input type="email" id="shipping-email" required placeholder="jane@example.com">
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label for="shipping-address">Street Address</label>
+                  <input type="text" id="shipping-address" required placeholder="123 Luxury Lane">
+                </div>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label for="shipping-city">City</label>
+                    <input type="text" id="shipping-city" required placeholder="Beverly Hills">
+                  </div>
+                  <div class="form-field">
+                    <label for="shipping-zip">Zip/Postal Code</label>
+                    <input type="text" id="shipping-zip" required placeholder="90210" pattern="^[a-zA-Z0-9\s-]{3,10}$">
+                  </div>
+                </div>
+                <button type="submit" id="to-payment-btn" class="btn btn-primary btn-next">Continue to Payment</button>
+              </fieldset>
+            </form>
+          </div>
+
+          <!-- Step 2: Payment Form & Virtual Credit Card -->
+          <div id="checkout-step-2" class="checkout-step hidden">
+            <div class="payment-layout">
+              <!-- Interactive Virtual Credit Card -->
+              <div class="card-display-wrapper">
+                <div id="virtual-card" class="virtual-card">
+                  <!-- Front Side -->
+                  <div class="card-side card-front">
+                    <div class="card-glow"></div>
+                    <div class="card-header-v">
+                      <span class="card-chip"></span>
+                      <span id="v-card-logo" class="card-logo">VISA</span>
+                    </div>
+                    <div id="v-card-number" class="card-number-v">•••• •••• •••• ••••</div>
+                    <div class="card-footer-v">
+                      <div class="card-holder-v">
+                        <span class="label">CARDHOLDER</span>
+                        <span id="v-card-name" class="val">YOUR NAME</span>
+                      </div>
+                      <div class="card-expiry-v">
+                        <span class="label">EXPIRES</span>
+                        <span id="v-card-expiry" class="val">MM/YY</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Back Side -->
+                  <div class="card-side card-back">
+                    <div class="card-magnetic-strip"></div>
+                    <div class="card-signature-strip">
+                      <span id="v-card-cvv" class="cvv-val">•••</span>
+                    </div>
+                    <div class="card-back-text">JD JEWELLERS SECURE ENCRYPTION</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Payment Input Form -->
+              <form id="payment-form" onsubmit="event.preventDefault();">
+                <fieldset class="form-fieldset">
+                  <legend class="sr-only">Payment Details</legend>
+                  <div class="form-field">
+                    <label for="payment-card-name">Cardholder Name</label>
+                    <input type="text" id="payment-card-name" required placeholder="JANE DOE">
+                  </div>
+                  <div class="form-field">
+                    <label for="payment-card-number">Card Number</label>
+                    <input type="text" id="payment-card-number" required placeholder="4000 1234 5678 9010" maxlength="19">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-field">
+                      <label for="payment-card-expiry">Expiration Date</label>
+                      <input type="text" id="payment-card-expiry" required placeholder="MM/YY" maxlength="5">
+                    </div>
+                    <div class="form-field">
+                      <label for="payment-card-cvv">CVV</label>
+                      <input type="password" id="payment-card-cvv" required placeholder="123" maxlength="4">
+                    </div>
+                  </div>
+                  <div class="checkout-actions">
+                    <button type="button" id="back-to-shipping-btn" class="btn btn-secondary">Back to Shipping</button>
+                    <button type="submit" id="submit-order-btn" class="btn btn-primary">Authorize & Place Order</button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+
+          <!-- Step 3: Success Confirmation -->
+          <div id="checkout-step-3" class="checkout-step hidden">
+            <div class="success-screen">
+              <div class="success-icon-wrapper">
+                <svg class="success-check-svg" viewBox="0 0 52 52">
+                  <circle class="success-check-circle" cx="26" cy="26" r="25" fill="none"/>
+                  <path class="success-check-path" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+              </div>
+              <h2>Thank You For Your Order</h2>
+              <p>Your transaction has been authorized successfully via simulated checkout.</p>
+              <div class="order-receipt-box">
+                <p>Order Number: <strong id="receipt-order-no">#AURA-98231</strong></p>
+                <p>Estimated Delivery: <strong id="receipt-delivery-date">June 18, 2026</strong></p>
+                <p>Sent to: <span id="receipt-email">jane@example.com</span></p>
+              </div>
+              <button id="success-done-btn" class="btn btn-primary">Return to Shop</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Checkout Sidebar Summary -->
+        <aside class="checkout-sidebar">
+          <h3>Order Summary</h3>
+          <div id="checkout-summary-items" class="summary-items-list">
+            <!-- Dynamic Summary Items -->
+          </div>
+          <div class="summary-totals">
+            <div class="summary-line">
+              <span>Subtotal</span>
+              <span id="summary-subtotal">$0.00</span>
+            </div>
+            <div id="summary-discount-line" class="summary-line hidden text-success">
+              <span>Discount</span>
+              <span id="summary-discount">-$0.00</span>
+            </div>
+            <div class="summary-line">
+              <span>Insured Shipping</span>
+              <span class="text-success">Complimentary</span>
+            </div>
+            <div class="summary-line total-line-c">
+              <span>Total</span>
+              <span id="summary-total">$0.00</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script Declarations -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
